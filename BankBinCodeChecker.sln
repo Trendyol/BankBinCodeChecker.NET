@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1EC13FF-1C97-49B2-812E-9F449EA83B5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A42E8FBA-8C3F-48C8-8E6A-FDEBF6BB899F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankBinCodeChecker", "src\BankBinCodeChecker\BankBinCodeChecker.csproj", "{17097B06-FE81-47D2-827E-EDFCB78FC9F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankBinCodeChecker.Tests", "tests\BankBinCodeChecker.Tests\BankBinCodeChecker.Tests.csproj", "{B7844C64-3479-42B9-8228-9C51DBD38571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17097B06-FE81-47D2-827E-EDFCB78FC9F9} = {C1EC13FF-1C97-49B2-812E-9F449EA83B5D}
+		{B7844C64-3479-42B9-8228-9C51DBD38571} = {A42E8FBA-8C3F-48C8-8E6A-FDEBF6BB899F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17097B06-FE81-47D2-827E-EDFCB78FC9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17097B06-FE81-47D2-827E-EDFCB78FC9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17097B06-FE81-47D2-827E-EDFCB78FC9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17097B06-FE81-47D2-827E-EDFCB78FC9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7844C64-3479-42B9-8228-9C51DBD38571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7844C64-3479-42B9-8228-9C51DBD38571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7844C64-3479-42B9-8228-9C51DBD38571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7844C64-3479-42B9-8228-9C51DBD38571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
